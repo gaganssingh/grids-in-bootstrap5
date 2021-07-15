@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <title>Grid 3 | Grids in Bootstrap 5</title>
+    <title>Grid 3B | Grids in Bootstrap 5</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -83,12 +83,10 @@
         <!-- Internal navigation -->
         <ul class="nav nav-pills mb-1">
           <li class="nav-item">
-            <a href="grid3.html" class="nav-link active" aria-current="page"
-              >Grid 3</a
-            >
+            <a href="grid3.html" class="nav-link" aria-current="page">Grid 3</a>
           </li>
           <li class="nav-item">
-            <a href="grid3b.html" class="nav-link" aria-current="page"
+            <a href="grid3b.html" class="nav-link active" aria-current="page"
               >Grid 3b</a
             >
           </li>
@@ -134,35 +132,40 @@
           </div>
 
           <!-- Right column -->
-          <div class="col-4 h-100 d-flex flex-column justify-content-evenly">
+          <div class="col-4">
             <!-- Right TOP Box -->
-            <div class="bg-dark text-light h-50 p-2 overflow-auto">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Mollitia nisi quisquam deleniti architecto earum. Delectus,
-                neque pariatur sequi repudiandae consequatur non sit corporis
-                voluptatum, temporibus quidem in impedit sed voluptates nam
-                incidunt, eveniet voluptate unde iusto exercitationem commodi
-                numquam. Magni reprehenderit necessitatibus molestiae laboriosam
-                aliquam corrupti debitis consectetur incidunt vitae!
-              </p>
+            <div class="bg-secondary text-light p-2">
+              <form class="d-flex">
+                <input
+                  type="search"
+                  class="form-control me-2"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-light" type="submit">
+                  Submit
+                </button>
+              </form>
             </div>
 
             <!-- Right BOTTOM Box -->
-            <div class="bg-dark text-light h-50 mt-2 p-2 overflow-hidden">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Facilis hic libero totam temporibus maiores, quod accusamus sed
-                quam possimus placeat unde sunt error ipsam. Aliquid minima
-                necessitatibus accusamus, facilis eum velit, ipsam ab molestias
-                dolore nisi, quo iure suscipit non deleniti voluptatibus quia.
-                Odio earum quos dolore. Itaque, perferendis provident.
-              </p>
-            </div>
-
-            <!-- Button -->
-            <div class="bg-dark text-light border border-top p-2">
-              <button class="btn btn-light" type="button">Read More</button>
+            <div class="bg-dark text-light mt-2 p-2">
+              <h5>Recommended Articles</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="#" class="nav-link"
+                    >How do Promises work in JavaScript</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link"
+                    >This CSS Grids trick is amazing</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">A Virtual Coding Environment?</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
